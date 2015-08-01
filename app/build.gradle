@@ -1,0 +1,47 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 21
+    buildToolsVersion "21.1.2"
+
+    defaultConfig {
+        applicationId "com.tixon.portlab.app"
+        minSdkVersion 11
+        targetSdkVersion 21
+        versionCode 4
+        versionName "2.1.1"
+    }
+
+    //signingConfigs {
+    //release {
+    //storeFile file(~/Documents/keystore_portlab.jks)
+    //storePassword "android2014"
+    //keyAlias "android_keystore"
+    //keyPassword "android2014"
+    //}
+    //}
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+repositories {
+    flatDir {
+        dirs 'libs'
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile 'com.android.support:cardview-v7:21.0.3'
+    compile 'com.android.support:recyclerview-v7:21.0.3'
+    compile 'com.android.support:appcompat-v7:21.0.3'
+    compile 'com.google.android.gms:play-services:6.5.87'
+    compile files('libs/AdBuddiz-2.4.4.jar')
+    compile(name:'floatingactionbutton-1.2.0', ext:'aar')
+}
+

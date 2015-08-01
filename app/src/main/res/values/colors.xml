@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="fragment_background">#ffefefef</color>
+    <color name="pager_background">#ff474747</color>
+    <!--color name="main_orange">@color/material_blue_grey_800</color #ffff8c00 -->
+    <color name="main_orange">@color/primary_pressed</color>
+    <!--color name="main_blue">#ff008eff</color #ff5d1b00 -->
+    <color name="main_blue">#ff5d1b00</color>
+    <!--color name="primary">#3f51b5</color>
+    <color name="primary_pressed">#303f9f</color>
+    <color name="ripple">#ff80ab</color>
+    <color name="accent">#ff4081</color>
+    <color name="accent_pressed">#f50057</color-->
+    <color name="primary">#ffc107</color>
+    <color name="primary_pressed">#ff9800</color>
+    <color name="ripple">#ffeb3b</color>
+    <color name="accent">#cddc39</color>
+    <color name="accent_pressed">#8bc34a</color>
+
+    <color name="primary200">#ffcc80</color>
+    <color name="primary300">#ffb74d</color>
+    <color name="primary500">#ff9800</color>
+    <color name="primary700">#f57c00</color>
+    <color name="primary900">#e65100</color>
+    <color name="grey50">#fafafa</color>
+    <color name="grey200">#eeeeee</color>
+    <color name="grey300">#e0e0e0</color>
+    <color name="text">#000000</color>
+    <color name="textWhite">#ffffff</color>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android">
+    <header
+            android:fragment="com.tixon.portlab.app.FragmentPrefComputing"
+            android:icon="@android:drawable/ic_menu_preferences"
+            android:summary="@string/header1_summary"
+            android:title="@string/header1_title">
+    </header>
+    <header
+            android:fragment="com.tixon.portlab.app.FragmentPrefAppearance"
+            android:icon="@android:drawable/ic_menu_view"
+            android:summary="@string/header2_summary"
+            android:title="@string/header2_title">
+    </header>
+</preference-headers>

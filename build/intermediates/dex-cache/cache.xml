@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/root/AndroidStudioProjects/Portlab/app/build/intermediates/exploded-aar/floatingactionbutton-1.2.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="65620ba5e576dcec2c86efa440b00d042a27383b">
+        <dex dex="/root/AndroidStudioProjects/Portlab/app/build/intermediates/pre-dexed/debug/classes-3756238100b37c0039b5829e9e7dcd0ea7ec3fcb.jar" />
+    </item>
+    <item
+        jar="/root/AndroidStudioProjects/Portlab/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="/root/AndroidStudioProjects/Portlab/app/build/intermediates/pre-dexed/debug/classes-34c61ebb65555dbedd49316652c90a3069912023.jar" />
+    </item>
+    <item
+        jar="/root/AndroidStudioProjects/Portlab/app/libs/AdBuddiz-2.4.4.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="bac220c458817229bf4c675cbfde1bbd5ffd4e34">
+        <dex dex="/root/AndroidStudioProjects/Portlab/app/build/intermediates/pre-dexed/debug/AdBuddiz-2.4.4-29c3b65f8bec859cc43cde2de187cb81db87cdfc.jar" />
+    </item>
+    <item
+        jar="/root/AndroidStudioProjects/Portlab/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="dd9247ea0fabe8ee479638c4b4a23e93752be256">
+        <dex dex="/root/AndroidStudioProjects/Portlab/app/build/intermediates/pre-dexed/debug/classes-24ed1f210eb181c8b08bdd624f2e2665f9ff03db.jar" />
+    </item>
+    <item
+        jar="/home/tikhon/android-sdk-linux/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="/root/AndroidStudioProjects/Portlab/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-25c987f0501ff05170dd1389fb026787e12a429c.jar" />
+    </item>
+    <item
+        jar="/root/AndroidStudioProjects/Portlab/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="00b0b7233e1ec64acebfac40d4983d32d4712426">
+        <dex dex="/root/AndroidStudioProjects/Portlab/app/build/intermediates/pre-dexed/debug/classes-5b8d78d50a67ac6d0aee8a0b27b18739e64b10e5.jar" />
+    </item>
+    <item
+        jar="/root/AndroidStudioProjects/Portlab/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/libs/internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="/root/AndroidStudioProjects/Portlab/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-36689962fb0a6f67213df7f92c35e93bf16ea741.jar" />
+    </item>
+    <item
+        jar="/root/AndroidStudioProjects/Portlab/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b8945fc23a7461c6fdde15753456d64b0a9358b">
+        <dex dex="/root/AndroidStudioProjects/Portlab/app/build/intermediates/pre-dexed/debug/classes-a611ad90a67a17ee37e6b04404812f3a6e8321c0.jar" />
+    </item>
+    <item
+        jar="/root/AndroidStudioProjects/Portlab/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="/root/AndroidStudioProjects/Portlab/app/build/intermediates/pre-dexed/debug/classes-d04ef46db40f26f65d2bb77ac6c0a5b3b5475809.jar" />
+    </item>
+
+</items>

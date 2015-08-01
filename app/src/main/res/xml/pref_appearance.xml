@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+            android:title="@string/category_calculator">
+        <CheckBoxPreference
+                android:key="checkBox_smoothScroll"
+                android:summary="@string/chbSmoothScroll_summary"
+                android:title="@string/chbSmoothScroll_title"
+                android:defaultValue="true">
+        </CheckBoxPreference>
+        <CheckBoxPreference
+                android:key="checkBox_hideKB_calc"
+                android:summary="@string/chbKB_hide_calc_summary"
+                android:title="@string/chbKB_hide_calc_title"
+                android:defaultValue="true">
+        </CheckBoxPreference>
+        <ListPreference
+                android:key="selector_showDataFromHistory"
+                android:title="@string/selector_showDataFromHistory_title"
+                android:summary="@string/selector_showDataFromHistory_summary"
+                android:entries="@array/selector_showDataFromHistory_entries"
+                android:entryValues="@array/selector_showDataFromHistory_entries"
+                android:defaultValue="@string/selector_showDataFromHistory_default">
+        </ListPreference>
+        <!--android:defaultValue="0" -->
+        <!--<ListPreference
+                android:entries="@array/entries"
+                android:entryValues="@array/entry_values"
+                android:key="list2"
+                android:summary="@string/list2_summary"
+                android:title="@string/list2_title">
+        </ListPreference>-->
+    </PreferenceCategory>
+    <!--<PreferenceCategory
+            android:title="@string/category2">
+        <PreferenceScreen
+                android:fragment="com.tixon.portlab.app.FragmentPrefComputing"
+                android:summary="@string/screen1_summary"
+                android:title="@string/screen1_title">
+        </PreferenceScreen>
+        <PreferenceScreen
+                android:summary="@string/screen2_summary"
+                android:title="@string/screen2_title">
+            <intent
+                    android:action="android.intent.action.VIEW"
+                    android:data="http://www.developer.android.com">
+            </intent>
+        </PreferenceScreen>
+    </PreferenceCategory>-->
+</PreferenceScreen>

@@ -1,0 +1,288 @@
+<resources>
+    <string name="app_name">Portlab</string>
+    <string name="action_settings">Settings</string>
+    <string name="menu">Menu</string>
+    <string name="action_mode_delete_title">Delete…</string>
+
+    <string-array name="views_array">
+        <item>Calculator</item>
+        <item>Matrix operations</item>
+        <!--<item>Vector operations</item>-->
+    </string-array>
+
+    <string-array name="views_array_variables">
+        <item>Variables</item>
+        <item>Functions</item>
+        <item>Arrays</item>
+    </string-array>
+
+    <string-array name="right_drawer_entries">
+        <item>sum()</item>
+        <item>cos()</item>
+        <item>sin()</item>
+        <item>tg()</item>
+        <item>ln()</item>
+        <item>lg()</item>
+        <item>log()</item>
+        <item>sqrt()</item>
+    </string-array>
+
+    <string name="et_calc_hint">Your expression:</string>
+    <string name="menu_calc_variables">Variables</string>
+    <string name="menu_calc_functions">Functions</string>
+    <string name="menu_calc_delete">Delete</string>
+    <string name="menu_calc_show_panel">Panel</string>
+    <string name="matrix1">Matrix 1</string>
+    <string name="matrix2">Matrix 2</string>
+    <string name="matrix">Matrix</string>
+    <string name="exponent">Exponent</string>
+    <string name="vector1">Vector 1</string>
+    <string name="vector2">Vector 2</string>
+    <string name="button_start_mOp">OK</string>
+
+    <eat-comment>Exceptions in calculator input</eat-comment>
+
+    <string name="calc_default_error">Expression input error</string>
+    <string name="calc_undefined_variable">Undefined variables or arrays</string>
+    <string name="calc_brackets">Excess or missing brackets</string>
+    <string name="calc_constants_override">Constants cannot be redefined</string>
+    <string name="tv_no_functions">No functions</string>
+    <string name="tv_no_variables">No variables</string>
+    <string name="tv_no_arrays">No arrays</string>
+
+    <string-array name="matrix_operations">
+        <item>Trace</item>
+        <item>Determinant</item>
+        <item>Transposition</item>
+        <item>Reverse matrix</item>
+        <item>Exponentiation</item>
+        <item>Addition</item>
+        <item>Subtraction</item>
+        <item>Multiplication</item>
+        <item>Division</item>
+    </string-array>
+    <string name="spinner_title">Matrix operations</string>
+    <string name="show_detailed_solution">Detailed solution</string>
+    <string name="settings_title">Settings</string>
+
+    <string name="dialog_select_delete_title">Delete</string>
+
+    <string name="dialog_delete_title">Warning</string>
+    <string name="dialog_delete_history_message">Do you really want to delete history?</string>
+    <string name="dialog_delete_variables_message">Do you really want to delete variables?</string>
+    <string name="dialog_delete_functions_message">Do you really want to delete functions?</string>
+    <string name="dialog_delete_arrays_message">Do you really want to delete arrays?</string>
+    <string name="dialog_delete_all_message">Do you really want to delete all?</string>
+    <string name="dialog_button_OK">OK</string>
+    <string name="dialog_button_yes">Yes</string>
+    <string name="dialog_button_no">No</string>
+    <string name="dialog_button_cancel">Cancel</string>
+    <string name="dialog_updates_title">Portlab. Updated.</string>
+    <string name="dialog_updates_message">
+        <b>New in this version:</b>\n\n
+        Working with arrays: a := {2; 3; 4}, sin({0; 45; 90});\n
+        Totally new user interface;\n
+        Supporting E: 2E-4 is 2 * 10 ^ (-4)\n
+        Pi and e in function panel\n
+        Fixed some errors in calculation\n
+        \n
+        An experiment with new banners was finished\n
+    </string>
+
+    <eat-comment>Exceptions in matrix input</eat-comment>
+
+    <string name="ET_empty">Write the matrix</string>
+    <string name="matrix1_should_be_square">Matrix 1 should be square</string>
+    <string name="matrix2_should_be_square">Matrix 2 should be square</string>
+    <string name="matrix_should_be_square">Matrix should be square</string>
+    <string name="matrices_should_be_consistent">Matrices should be consistent</string>
+    <string name="matrices_should_be_same_size">Matrices should be of the same size</string>
+    <string name="determinant_is_0">Zero determinant</string>
+    <string name="exponent_integer">Exponent must be an integer</string>
+    <string name="exponent_moreThan_1">Exponent must not be less than 1</string>
+
+    <string name="history_delete_successful">History has been deleted successfully</string>
+    <string name="variables_delete_successful">Variables have been deleted successfully</string>
+    <string name="functions_delete_successful">Functions have been deleted successfully</string>
+    <string name="arrays_delete_successful">Arrays have been deleted successfully</string>
+    <string name="all_data_delete_successful">All data have been deleted successfully</string>
+
+    <string name="dialog_variables_name">Variable name:</string>
+    <string name="dialog_variables_value">Variable value:</string>
+    <string name="dialog_functions_name">Function name:</string>
+    <string name="dialog_functions_args">Function arguments:</string>
+    <string name="dialog_functions_expr">Function expression:</string>
+    <string name="dialog_arrays_name">Array name:</string>
+    <string name="dialog_arrays_values">Array values:</string>
+
+    <string name="dialog_variables_title">Edit variable</string>
+    <string name="dialog_functions_title">Edit function</string>
+    <string name="dialog_arrays_title">Edit array</string>
+
+    <string name="variable_changed">The variable has been changed: </string>
+    <string name="function_changed">The function has been changed: </string>
+    <string name="array_changed">The array has been changed: </string>
+
+    <string-array name="settings_titles">
+        <item>Delete</item>
+    </string-array>
+    <string-array name="settings_delete">
+        <item>Delete history</item>
+        <item>Delete variables</item>
+        <item>Delete functions</item>
+        <item>Delete arrays</item>
+        <item>Delete all</item>
+    </string-array>
+
+    <eat-comment>Temporary</eat-comment>
+
+    <string name="checkbox1_title">CheckBox 1</string>
+    <string name="checkbox1_summary">Summary of CheckBox 1</string>
+    <string name="edittext1_title">EditText 1</string>
+    <string name="edittext1_summary">Summary of EditText 1</string>
+    <string name="list_round_title">Round</string>
+    <string name="list_round_summary">Number of digits after point</string>
+    <string-array name="entries_round">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+    </string-array>
+    <string-array name="entry_values_round">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+    </string-array>
+
+    <string name="category_calculator">Calculator</string>
+    <string name="category_matrix">Matrix</string>
+
+    <string name="chbSmoothScroll_title">Scroll to top</string>
+    <string name="chbSmoothScroll_summary">Auto scroll to top after calculation</string>
+    <string name="chbKB_hide_calc_title">Hide keyboard</string>
+    <string name="chbKB_hide_calc_summary">Hide keyboard after calculation</string>
+    <string name="selector_showDataFromHistory_title">History item click</string>
+    <string name="selector_showDataFromHistory_summary">What to write in text field</string>
+    <string name="selector_showDataFromHistory_default">Expression</string>
+    <string-array name="selector_showDataFromHistory_entries">
+        <item>Expression</item>
+        <item>Result</item>
+    </string-array>
+
+    <string name="edittext2_title">EditText 2</string>
+    <string name="edittext2_summary">Summary of EditText 2</string>
+    <string name="list2_title">List 2</string>
+    <string name="list2_summary">Summary of List 2</string>
+    <string name="category1">Category 1</string>
+    <string name="category2">Category 2</string>
+    <string name="screen1_title">Screen 1</string>
+    <string name="screen1_summary">Summary of Screen 1</string>
+    <string name="screen2_title">Screen 2</string>
+    <string name="screen2_summary">Summary of Screen 2</string>
+    <string name="header1_title">Calculation</string>
+    <string name="header1_summary">Calculation settings</string>
+    <string name="header2_title">Appearance</string>
+    <string name="header2_summary">Appearance settings</string>
+    <string name="header3_title">Header 3</string>
+    <string name="header3_summary">Summary of Header 3</string>
+
+    <!-- Help -->
+    <string name="help_menu_title">Help</string>
+    <string name="welcome_to_portlab">Welcome to PortLab!</string>
+    <string name="button_startUse">Start using</string>
+    <string name="help_text_1">
+        <b>PortLab</b> is a multifunctional calculator that allows to assign variables and functions in order to simplify calculation of complex mathematical expressions.\n
+        There is also matrix operations module in the application.\n
+        \n
+        <b>Entry. General rules</b>\n
+        To write several arguments in function comma is used. Dot is used in decimal fractions, semicolon is used in arrays.\n
+        \n
+        <b>User interface</b>\n
+        Simple press on history list item leads to insert an equation result in the text field.
+        Long press allows to delete items, insert in text field an expression or to create an array of several items.\n
+        \n
+        <b>Supported operations</b>\n
+        Arithmetic:\n
+        +, -, *, /, ^, E (2E3 = 2 * 10^3)\n
+        Built-in functions:\n
+        cos, sin, tg, ctg, deg, rad, ln, lg, log, sqrt, sum\n
+        <b>cos</b>: cosine\n
+        <b>sin</b>: sine\n
+        <b>tg</b>: tangent\n
+        <b>ctg</b>: cotangent\n
+        <b>deg</b>: from radians to degrees\n
+        <b>rad</b>: from degrees to radians\n
+        <b>ln</b>: natural logarithm\n
+        <b>lg</b>: decimal logarithm\n
+        <b>log</b>: logarithm to any base\n
+        Example: log(2,8)\n
+        Logarithm of 8 to the base 2\n
+        <b>sqrt</b>: square root\n
+        <b>sum</b>: the amount of any quantity of numbers or expressions, separated by commas\n
+        Example: \n
+        sum(0.2, log(2,8), 150.412)\n
+        \n
+        <b>About arrays</b>\n
+        Portlab allows to work with arrays - with one or with several at the same time. When you are working with several arrays, they must have similar length.\n
+        Examples of working with arrays:\n
+        sin({30; 60; 90})\n
+        \n
+        a := {10; 20; 30}\n
+        b := {2; 5; 6}\n
+        a * b\n
+        (a / b) + 10\n\n
+        <b>Assignment</b>\n
+        For assignment the operator <b>:=</b> is used.
+        It can be called by pressing the appropriate button in the operations panel, and also by typing it with keyboard.
+        To the left of the operator must be variable, array or function, and to the right - value, values or expression.\n
+        Examples of variable assignment: \n
+        x := 2\n
+        y := 2+log(2,8)\n
+        z := x+y\n
+        Examples of array assignment: \n
+        a := {1.0; 5.5; log(2,8)}
+        b := {3; 5; 6}
+        Examples of function assignment:\n
+        f(a,b) := (a+b)/2\n
+        g(a1,a2) := (x+y+z)*f(a1,a2)\n
+        \n
+        <b>Editing</b>\n
+        To edit variables or function, press the button <b>Variables</b> in the top-right corner of screen or in menu.\n
+        \n
+        <b>Working with matrices</b>\n
+        To perform an operation on the matrix or on two matrices, enter the matrices in text fields, choose the operation from list and press <b>ОК</b>.\n
+        Line items are entered, separated by semicolons. Start writing the next line is executed by pressing the <b>Enter</b> key.\n
+        Example:\n
+        2; 4; 5\n
+        1; 2; 6\n
+        7; 8; 9
+    </string>
+
+    <string name="context_replace">Replace</string>
+    <string name="context_expression">Insert expression</string>
+    <string name="context_delete_from_history">Delete</string>
+    <string name="context_create_array">Create array</string>
+</resources>

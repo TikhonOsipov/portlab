@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="@string/context_replace"
+        android:id="@+id/context_replace"
+        app:showAsAction="ifRoom|withText"/>
+    <item
+        android:title="@string/context_expression"
+        android:id="@+id/context_expression"
+        app:showAsAction="ifRoom|withText"/>
+
+    <item
+        android:title="@string/context_delete_from_history"
+        android:id="@+id/context_delete"
+        app:showAsAction="ifRoom|withText"/>
+</menu>

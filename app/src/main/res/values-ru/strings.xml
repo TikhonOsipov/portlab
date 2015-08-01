@@ -1,0 +1,293 @@
+<resources>
+    <string name="app_name">Portlab</string>
+    <string name="action_settings">Настройки</string>
+    <string name="menu">Меню</string>
+    <string name="action_mode_delete_title">Удалить…</string>
+
+    <string-array name="views_array">
+        <item>Калькулятор</item>
+        <item>Матрицы</item>
+        <!--<item>Векторы</item>-->
+    </string-array>
+
+    <string-array name="views_array_variables">
+        <item>Переменные</item>
+        <item>Функции</item>
+        <item>Массивы</item>
+    </string-array>
+
+    <string-array name="right_drawer_entries">
+        <item>sum()</item>
+        <item>cos()</item>
+        <item>sin()</item>
+        <item>tg()</item>
+        <item>ln()</item>
+        <item>lg()</item>
+        <item>log()</item>
+        <item>sqrt()</item>
+    </string-array>
+
+    <string name="et_calc_hint">Ваше выражение:</string>
+    <string name="menu_calc_variables">Переменные</string>
+    <string name="menu_calc_functions">Функции</string>
+    <string name="menu_calc_delete">Удалить</string>
+    <string name="menu_calc_show_panel">Панель</string>
+    <string name="matrix1">Матрица 1</string>
+    <string name="matrix2">Матрица 2</string>
+    <string name="matrix">Матрица</string>
+    <string name="exponent">Степень</string>
+    <string name="vector1">Вектор 1</string>
+    <string name="vector2">Вектор 2</string>
+    <string name="button_start_mOp">ОК</string>
+
+    <eat-comment>Exceptions in calculator input</eat-comment>
+
+    <string name="calc_default_error">Ошибка при вводе выражения</string>
+    <string name="calc_undefined_variable">Переменная или массив не объявлены</string>
+    <string name="calc_brackets">Ошибка при расстановке скобок</string>
+    <string name="calc_constants_override">Нельзя переопределять константы</string>
+    <string name="tv_no_functions">Нет функций</string>
+    <string name="tv_no_variables">Нет переменных</string>
+    <string name="tv_no_arrays">Нет массивов</string>
+
+    <string-array name="matrix_operations">
+        <item>След</item>
+        <item>Определитель</item>
+        <item>Транспонирование</item>
+        <item>Обратная матрица</item>
+        <item>Возведение в степень</item>
+        <item>Сложение</item>
+        <item>Вычитание</item>
+        <item>Умножение</item>
+        <item>Деление</item>
+    </string-array>
+    <string name="spinner_title">Операции над матрицами</string>
+    <string name="show_detailed_solution">Подробное решение</string>
+    <string name="settings_title">Настройки</string>
+
+    <string name="dialog_select_delete_title">Удалить</string>
+
+    <string name="dialog_delete_title">Предупреждение</string>
+    <string name="dialog_delete_history_message">Вы действительно хотите удалить историю?</string>
+    <string name="dialog_delete_variables_message">Вы действительно хотите удалить переменные?</string>
+    <string name="dialog_delete_functions_message">Вы действительно хотите удалить функции?</string>
+    <string name="dialog_delete_arrays_message">Вы действительно хотите удалить массивы?</string>
+    <string name="dialog_delete_all_message">Вы действительно хотите удалить всё?</string>
+    <string name="dialog_button_OK">OK</string>
+    <string name="dialog_button_yes">Да</string>
+    <string name="dialog_button_no">Нет</string>
+    <string name="dialog_button_cancel">Отмена</string>
+    <string name="dialog_updates_title">Portlab. Updated.</string>
+    <string name="dialog_updates_message">
+        <b>Новое в этой версии:</b>\n\n
+        Работа с массивами: a := {2; 3; 4}, sin({0; 45; 90});\n
+        Совершенно новый пользовательский интерфейс;\n
+        Поддержка E: 2E-4 is 2 * 10 ^ (-4)\n
+        Pi и e в панели функций\n
+        Исправлены некоторые ошибки в вычислениях\n
+        \n
+        Закончен эксперимент с рекламными баннерами\n
+    </string>
+
+    <eat-comment>Exceptions in matrix input</eat-comment>
+
+    <string name="ET_empty">Введите матрицу</string>
+    <string name="matrix1_should_be_square">Матрица 1 должна быть квадратной</string>
+    <string name="matrix2_should_be_square">Матрица 2 должна быть квадратной</string>
+    <string name="matrix_should_be_square">Матрица должна быть квадратной</string>
+    <string name="matrices_should_be_consistent">Матрица 1 должна быть согласованной с матрицей 2</string>
+    <string name="matrices_should_be_same_size">Матрицы должны быть одного размера</string>
+    <string name="determinant_is_0">Определитель равен нулю</string>
+    <string name="exponent_integer">Степень должна быть целым числом</string>
+    <string name="exponent_moreThan_1">Степень не должна быть меньше 1</string>
+
+    <string name="history_delete_successful">История успешно удалена</string>
+    <string name="variables_delete_successful">Переменные успешно удалены</string>
+    <string name="functions_delete_successful">Функции успешно удалены</string>
+    <string name="arrays_delete_successful">Массивы успешно удалены</string>
+    <string name="all_data_delete_successful">Все данные успешно удалены</string>
+
+    <string name="dialog_variables_name">Имя переменной:</string>
+    <string name="dialog_variables_value">Значение переменной:</string>
+    <string name="dialog_functions_name">Имя функции:</string>
+    <string name="dialog_functions_args">Аргументы функции:</string>
+    <string name="dialog_functions_expr">Выражение функции:</string>
+    <string name="dialog_arrays_name">Имя массива:</string>
+    <string name="dialog_arrays_values">Значения элементов массива:</string>
+
+    <string name="dialog_variables_title">Редактировать переменную</string>
+    <string name="dialog_functions_title">Редактировать функцию</string>
+    <string name="dialog_arrays_title">Редактировать массив</string>
+
+    <string name="variable_changed">Переменная была изменена: </string>
+    <string name="function_changed">Функция была изменена: </string>
+    <string name="array_changed">Массив был изменён: </string>
+
+    <string-array name="settings_titles">
+        <item>Удалить</item>
+    </string-array>
+    <string-array name="settings_delete">
+        <item>Удалить историю</item>
+        <item>Удалить переменные</item>
+        <item>Удалить функции</item>
+        <item>Удалить массивы</item>
+        <item>Удалить всё</item>
+    </string-array>
+
+    <eat-comment>Temporary</eat-comment>
+
+    <string name="checkbox1_title">CheckBox 1</string>
+    <string name="checkbox1_summary">Summary of CheckBox 1</string>
+    <string name="edittext1_title">EditText 1</string>
+    <string name="edittext1_summary">Summary of EditText 1</string>
+    <string name="list_round_title">Округление</string>
+    <string name="list_round_summary">Количество цифр в дробной части числа</string>
+    <string-array name="entries_round">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+    </string-array>
+    <string-array name="entry_values_round">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+    </string-array>
+
+    <string name="category_calculator">Калькулятор</string>
+    <string name="category_matrix">Матрицы</string>
+
+    <string name="chbSmoothScroll_title">Прокрутка к началу</string>
+    <string name="chbSmoothScroll_summary">Автоматическая прокрутка списка истории операций</string>
+    <string name="chbKB_hide_calc_title">Скрывать клавиатуру</string>
+    <string name="chbKB_hide_calc_summary">Убирать клавиатуру после вычисления</string>
+    <string name="selector_showDataFromHistory_title">Нажатие на элемент истории</string>
+    <string name="selector_showDataFromHistory_summary">Что вставлять в поле ввода</string>
+    <string name="selector_showDataFromHistory_default">Выражение</string>
+    <string-array name="selector_showDataFromHistory_entries">
+        <item>Выражение</item>
+        <item>Результат</item>
+    </string-array>
+
+    <string name="edittext2_title">EditText 2</string>
+    <string name="edittext2_summary">Summary of EditText 2</string>
+    <string name="list2_title">List 2</string>
+    <string name="list2_summary">Summary of List 2</string>
+    <string name="category1">Category 1</string>
+    <string name="category2">Category 2</string>
+    <string name="screen1_title">Screen 1</string>
+    <string name="screen1_summary">Summary of Screen 1</string>
+    <string name="screen2_title">Screen 2</string>
+    <string name="screen2_summary">Summary of Screen 2</string>
+    <string name="header1_title">Вычисления</string>
+    <string name="header1_summary">Настройки вычислений</string>
+    <string name="header2_title">Отображение</string>
+    <string name="header2_summary">Настройки внешнего вида</string>
+    <string name="header3_title">Header 3</string>
+    <string name="header3_summary">Summary of Header 3</string>
+
+    <!-- Help -->
+    <string name="help_menu_title">Помощь</string>
+    <string name="welcome_to_portlab">Добро пожаловать в PortLab!</string>
+    <string name="button_startUse">Перейти к использованию</string>
+    <string name="help_text_1">
+        <b>PortLab</b> - это многофункциональный калькулятор, позволяющий задавать
+        переменные и функции, тем самым упрощая вычисление сложных математических
+        выражений.\n
+        Также в приложении присутствует модуль, предназначенный для работы с
+        матрицами.\n
+        \n
+        <b>Общие правила записи</b>\n
+        Для записи нескольких аргументов в функции используется запятая.
+        Точка используется в десятичных дробях, точка с запятой - в массивах.\n
+        \n
+        <b>Пользовательский интерфейс</b>\n
+        Простое нажатие на элемент списка истории действий приводит к вставке результата вычислений в поле ввода.
+        Долгое нажатие позволяет удалять элементы, вставлять в поле ввода выражение или создавать массив из нескольких элементов.\n
+        \n
+        <b>Поддерживаемые операции</b>\n
+        Арифметика:\n
+        +, -, *, /, ^, E (2E3 = 2 * 10^3)\n
+        Встроенные функции:\n
+        cos, sin, tg, ctg, deg, rad, ln, lg, log, sqrt, sum\n
+        <b>cos</b>: косинус\n
+        <b>sin</b>: синус\n
+        <b>tg</b>: тангенс\n
+        <b>ctg</b>: котангенс\n
+        <b>deg</b>: из радианов в градусы\n
+        <b>rad</b>: из градусов в радианы\n
+        <b>ln</b>: натуральный логарифм\n
+        <b>lg</b>: десятичный логарифм\n
+        <b>log</b>: логарифм по любому основанию\n
+        Пример использования: log(2,8)\n
+        Логарифм от 8 по основанию 2\n
+        <b>sqrt</b>: квадратный корень\n
+        <b>sum</b>: сумма любого количества чисел или выражений, перечисленных через запятую\n
+        Пример использования: \n
+        sum(0.2, log(2,8), 150.412)\n
+        \n
+        <b>Присваивание</b>\n
+        Для присваивания используется оператор <b>:=</b>.
+        Его можно вызвать нажатием соответствующей кнопки
+        из панели операторов, а также вписать в поле с помощью клавиатуры.
+        С левой стороны от оператора присваивания должна стоять переменная или функция, а с правой - значение или выражение.\n
+        Примеры задания переменных: \n
+        x:=2\n
+        y:=2+log(2,8)\n
+        z:=x+y\n
+        Примеры задания массива: \n
+        a := {1.0; 5.5; log(2,8)}
+        b := {3; 5; 6}
+        Примеры задания функций:\n
+        f(a,b):=(a+b)/2\n
+        g(a1,a2):=(x+y+z)*f(a1,a2)\n
+        \n
+        <b>О массивах</b>\n
+        Portlab позволяет работать с массивами - как с одним, так и с несколькими одновременно. При работе с несколькими массивами они должны быть одной длины.\n
+        Примеры использования:\n
+        sin({30; 60; 90})\n
+        \n
+        a := {10; 20; 30}\n
+        b := {2; 5; 6}\n
+        a * b\n\n
+        <b>Редактирование</b>\n
+        Чтобы редактировать переменные или функции, нажмите кнопку <b>Переменные</b> в правом верхнем углу экрана или в меню.\n
+        \n
+        <b>Работа с матрицами</b>\n
+        Для того, чтобы выполнить операцию над матрицей или двумя матрицами,
+        введите матрицы в текстовые поля, выберите операцию из списка и нажмите <b>ОК</b>.\n
+        Элементы строки вводятся через точку с запятой. Переход к вводу следующей строки выполняется нажатием клавиши <b>Enter</b>.\n
+        Пример ввода матрицы:\n
+        2; 4; 5\n
+        1; 2; 6\n
+        7; 8; 9
+    </string>
+
+    <string name="context_replace">Заменить</string>
+    <string name="context_expression">Вставить выражение</string>
+    <string name="context_delete_from_history">Удалить</string>
+    <string name="context_create_array">Создать массив</string>
+</resources>
